@@ -1,0 +1,27 @@
+{
+  "name": "merlin-article-security",
+  "version": "1.0.0",
+  "description": "Code snippets to illustrate test scripts to execute security related test cases",
+  "main": "index.js",
+  "scripts": {
+    "test:unit": "tsc && jest ./src/file-upload/",
+    "test:api": "jest ./__tests__/api/"
+  },
+  "keywords": [
+    "merlin",
+    "security",
+    "testing"
+  ],
+  "author": "Moneesh Prathap",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.3.1",
+    "@types/supertest": "^2.0.11",
+    "jest": "^27.0.6",
+    "playwright": "^1.13.0-next-alpha-jul-10-2021",
+    "supertest": "^6.1.3",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  }
+}
