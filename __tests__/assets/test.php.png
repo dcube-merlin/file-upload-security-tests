@@ -1,7 +1,0 @@
-‰PNG
-
-function say_hello($friend) {
-  return "Hello " . $friend . "!";
-}
-
-echo say_hello('Tommy');
